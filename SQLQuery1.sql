@@ -26,5 +26,6 @@ alter table Employee
 alter column DEPT_NAME varchar(10)
 
 
- 
+insert into Employee(WORKER_ID,FIRST_NAME,LAST_NAME,SALARY,DEPT_NAME,JOINING_DATE) 
+values(203,'Md Touhidul','Islam','540','CSE','21-8-24')
 
