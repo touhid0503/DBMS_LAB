@@ -26,4 +26,5 @@ set SALARY=100000
 where DEPARTMENT='Admin'
 
 select * from Worker where FIRST_NAME in ('Rana','Sajib')
+select * from Worker where FIRST_NAME like '%a%'
 
