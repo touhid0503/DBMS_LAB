@@ -24,3 +24,6 @@ select * from Worker where JOINING_DATE between '2014-02-01' and '2014-03-31'
 update Worker
 set SALARY=100000
 where DEPARTMENT='Admin'
+
+select * from Worker where FIRST_NAME in ('Rana','Sajib')
+
