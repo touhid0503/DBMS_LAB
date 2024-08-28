@@ -20,3 +20,7 @@ values(1,'Rana','Hamid',100000,'2014-02-20 09:00:00', 'HR'),
 
 select * from Worker
 select * from Worker where JOINING_DATE between '2014-02-01' and '2014-03-31'
+
+update Worker
+set SALARY=100000
+where DEPARTMENT='Admin'
