@@ -19,3 +19,4 @@ values(1,'Rana','Hamid',100000,'2014-02-20 09:00:00', 'HR'),
 (8,'Keshob','Ray',90000,'2014-04-11 09:00:00','Admin')
 
 select * from Worker
+select * from Worker where JOINING_DATE between '2014-02-01' and '2014-03-31'
