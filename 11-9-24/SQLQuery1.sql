@@ -57,11 +57,17 @@ WHERE TID IN (
 );
 
 
---Write a query to update Dept  by  ‘English’ where Dept is ‘EEE’ using subquery.--
+--Write a query to update Dept  by  â€˜Englishâ€™ where Dept is â€˜EEEâ€™ using subquery.--
 
 Update table1
 Set Dept='English'
 where Dept=(select Dept from table1 where Dept='EEE')
+
+ 
+Update table1
+set Salary=case 
+when Salary>5000 then Salary*100
+end
 
 
 
